@@ -23,4 +23,4 @@ COPY . .
 ENV PYTHONUNBUFFERED=1
 
 # Default command (will be overridden in compose)
-CMD ["python", "tools_and_dashboard.py"]
+CMD ["uv", "run", "python", "tools_and_dashboard.py"]
